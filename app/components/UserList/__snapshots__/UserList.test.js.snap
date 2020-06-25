@@ -1,0 +1,384 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserList displays nothing when loading 1`] = `null`;
+
+exports[`UserList displays user list when data is loaded 1`] = `
+<RCTScrollView
+  data={
+    Array [
+      Object {
+        "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/calebogden/128.jpg",
+        "email": "george.bluth@reqres.in",
+        "first_name": "George",
+        "id": 1,
+        "last_name": "Bluth",
+      },
+      Object {
+        "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg",
+        "email": "janet.weaver@reqres.in",
+        "first_name": "Janet",
+        "id": 2,
+        "last_name": "Weaver",
+      },
+      Object {
+        "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg",
+        "email": "emma.wong@reqres.in",
+        "first_name": "Emma",
+        "id": 3,
+        "last_name": "Wong",
+      },
+      Object {
+        "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/marcoramires/128.jpg",
+        "email": "eve.holt@reqres.in",
+        "first_name": "Eve",
+        "id": 4,
+        "last_name": "Holt",
+      },
+      Object {
+        "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/stephenmoon/128.jpg",
+        "email": "charles.morris@reqres.in",
+        "first_name": "Charles",
+        "id": 5,
+        "last_name": "Morris",
+      },
+      Object {
+        "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/bigmancho/128.jpg",
+        "email": "tracey.ramos@reqres.in",
+        "first_name": "Tracey",
+        "id": 6,
+        "last_name": "Ramos",
+      },
+    ]
+  }
+  disableVirtualization={false}
+  getItem={[Function]}
+  getItemCount={[Function]}
+  horizontal={false}
+  initialNumToRender={10}
+  keyExtractor={[Function]}
+  maxToRenderPerBatch={10}
+  onContentSizeChange={[Function]}
+  onEndReachedThreshold={2}
+  onLayout={[Function]}
+  onMomentumScrollEnd={[Function]}
+  onScroll={[Function]}
+  onScrollBeginDrag={[Function]}
+  onScrollEndDrag={[Function]}
+  removeClippedSubviews={false}
+  renderItem={[Function]}
+  scrollEventThrottle={50}
+  stickyHeaderIndices={Array []}
+  updateCellsBatchingPeriod={50}
+  viewabilityConfigCallbackPairs={Array []}
+  windowSize={21}
+>
+  <View>
+    <View
+      onLayout={[Function]}
+      style={null}
+    >
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+            "margin": 8,
+          }
+        }
+      >
+        <Image
+          source={
+            Object {
+              "uri": "https://s3.amazonaws.com/uifaces/faces/twitter/calebogden/128.jpg",
+            }
+          }
+          style={
+            Object {
+              "height": 100,
+              "width": 100,
+            }
+          }
+        />
+        <View
+          style={
+            Object {
+              "marginLeft": 16,
+              "marginTop": 8,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontSize": 16,
+                "fontWeight": "bold",
+              }
+            }
+          >
+            George
+             
+            Bluth
+          </Text>
+          <Text>
+            george.bluth@reqres.in
+          </Text>
+        </View>
+      </View>
+    </View>
+    <View
+      onLayout={[Function]}
+      style={null}
+    >
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+            "margin": 8,
+          }
+        }
+      >
+        <Image
+          source={
+            Object {
+              "uri": "https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg",
+            }
+          }
+          style={
+            Object {
+              "height": 100,
+              "width": 100,
+            }
+          }
+        />
+        <View
+          style={
+            Object {
+              "marginLeft": 16,
+              "marginTop": 8,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontSize": 16,
+                "fontWeight": "bold",
+              }
+            }
+          >
+            Janet
+             
+            Weaver
+          </Text>
+          <Text>
+            janet.weaver@reqres.in
+          </Text>
+        </View>
+      </View>
+    </View>
+    <View
+      onLayout={[Function]}
+      style={null}
+    >
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+            "margin": 8,
+          }
+        }
+      >
+        <Image
+          source={
+            Object {
+              "uri": "https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg",
+            }
+          }
+          style={
+            Object {
+              "height": 100,
+              "width": 100,
+            }
+          }
+        />
+        <View
+          style={
+            Object {
+              "marginLeft": 16,
+              "marginTop": 8,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontSize": 16,
+                "fontWeight": "bold",
+              }
+            }
+          >
+            Emma
+             
+            Wong
+          </Text>
+          <Text>
+            emma.wong@reqres.in
+          </Text>
+        </View>
+      </View>
+    </View>
+    <View
+      onLayout={[Function]}
+      style={null}
+    >
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+            "margin": 8,
+          }
+        }
+      >
+        <Image
+          source={
+            Object {
+              "uri": "https://s3.amazonaws.com/uifaces/faces/twitter/marcoramires/128.jpg",
+            }
+          }
+          style={
+            Object {
+              "height": 100,
+              "width": 100,
+            }
+          }
+        />
+        <View
+          style={
+            Object {
+              "marginLeft": 16,
+              "marginTop": 8,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontSize": 16,
+                "fontWeight": "bold",
+              }
+            }
+          >
+            Eve
+             
+            Holt
+          </Text>
+          <Text>
+            eve.holt@reqres.in
+          </Text>
+        </View>
+      </View>
+    </View>
+    <View
+      onLayout={[Function]}
+      style={null}
+    >
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+            "margin": 8,
+          }
+        }
+      >
+        <Image
+          source={
+            Object {
+              "uri": "https://s3.amazonaws.com/uifaces/faces/twitter/stephenmoon/128.jpg",
+            }
+          }
+          style={
+            Object {
+              "height": 100,
+              "width": 100,
+            }
+          }
+        />
+        <View
+          style={
+            Object {
+              "marginLeft": 16,
+              "marginTop": 8,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontSize": 16,
+                "fontWeight": "bold",
+              }
+            }
+          >
+            Charles
+             
+            Morris
+          </Text>
+          <Text>
+            charles.morris@reqres.in
+          </Text>
+        </View>
+      </View>
+    </View>
+    <View
+      onLayout={[Function]}
+      style={null}
+    >
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+            "margin": 8,
+          }
+        }
+      >
+        <Image
+          source={
+            Object {
+              "uri": "https://s3.amazonaws.com/uifaces/faces/twitter/bigmancho/128.jpg",
+            }
+          }
+          style={
+            Object {
+              "height": 100,
+              "width": 100,
+            }
+          }
+        />
+        <View
+          style={
+            Object {
+              "marginLeft": 16,
+              "marginTop": 8,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontSize": 16,
+                "fontWeight": "bold",
+              }
+            }
+          >
+            Tracey
+             
+            Ramos
+          </Text>
+          <Text>
+            tracey.ramos@reqres.in
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>
+</RCTScrollView>
+`;

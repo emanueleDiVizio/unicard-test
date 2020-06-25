@@ -5,9 +5,7 @@ import useFetch from 'react-fetch-hook';
 const UserItem = ({image, name, surname, email}) => {
   return (
     <View style={styles.container}>
-      <View style={styles.imageContainer}>
-        <Image source={{uri: image}} style={styles.image} />
-      </View>
+      <Image source={{uri: image}} style={styles.image} />
       <View style={styles.textContainer}>
         <Text style={styles.name}>
           {name} {surname}
@@ -26,15 +24,15 @@ const UserList = () => {
   ) : (
     <FlatList
       data={data.data}
-      renderItem={({item}) => (
+      renderItem={({item: {avatar, first_name, last_name, email}}) => (
         <UserItem
-          image={item.avatar}
-          name={item.first_name}
-          surname={item.last_name}
-          email={item.email}
+          image={avatar}
+          name={first_name}
+          surname={last_name}
+          email={email}
         />
       )}
-      keyExtractor={item => item.email}
+      keyExtractor={({email}) => email}
     />
   );
 };
@@ -48,7 +46,6 @@ const styles = StyleSheet.create({
     width: 100,
     height: 100,
   },
-  imageContainer: {},
   textContainer: {
     marginLeft: 16,
     marginTop: 8,
