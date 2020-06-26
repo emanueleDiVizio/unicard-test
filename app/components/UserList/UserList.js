@@ -1,7 +1,6 @@
-import React, {useEffect} from 'react';
-import {thunks} from '../../state/user';
-import {useSelector, useDispatch} from 'react-redux';
+import React from 'react';
 import {View, Text, StyleSheet, Image, FlatList} from 'react-native';
+import useUserList from '../../hooks/useUserList';
 
 const UserItem = ({user: {email, image, name, surname}}) => {
   return (
@@ -18,12 +17,7 @@ const UserItem = ({user: {email, image, name, surname}}) => {
 };
 
 const UserList = () => {
-  const dispatch = useDispatch();
-  const {users, isLoading} = useSelector(state => state.user);
-
-  useEffect(() => {
-    dispatch(thunks.getUsers());
-  }, [dispatch]);
+  const {users, isLoading} = useUserList();
 
   return isLoading ? (
     <></>
