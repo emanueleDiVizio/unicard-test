@@ -1,1 +1,1 @@
-export {thunks, slice as default} from './userSlice';
+export {thunks, slice as default} from './slice';
