@@ -1,8 +1,8 @@
 import React from 'react';
 import {View, Text, StyleSheet, Image, FlatList} from 'react-native';
-import useFetch from 'react-fetch-hook';
+import useUserList from '../../hooks/useUserList';
 
-const UserItem = ({image, name, surname, email}) => {
+const UserItem = ({user: {email, image, name, surname}}) => {
   return (
     <View style={styles.container}>
       <Image source={{uri: image}} style={styles.image} />
@@ -17,21 +17,14 @@ const UserItem = ({image, name, surname, email}) => {
 };
 
 const UserList = () => {
-  const {isLoading, data} = useFetch('https://reqres.in/api/users');
+  const {users, isLoading} = useUserList();
 
   return isLoading ? (
     <></>
   ) : (
     <FlatList
-      data={data.data}
-      renderItem={({item: {avatar, first_name, last_name, email}}) => (
-        <UserItem
-          image={avatar}
-          name={first_name}
-          surname={last_name}
-          email={email}
-        />
-      )}
+      data={users}
+      renderItem={({item}) => <UserItem user={item} />}
       keyExtractor={({email}) => email}
     />
   );
