@@ -1,1 +1,3 @@
-export {default as user} from './user';
+import * as methods from './methods';
+
+export default methods;

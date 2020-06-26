@@ -10,6 +10,7 @@
     "lint": "eslint ."
   },
   "dependencies": {
+    "@reduxjs/toolkit": "^1.4.0",
     "apisauce": "^1.1.1",
     "react": "16.11.0",
     "react-fetch-hook": "^1.8.3",
