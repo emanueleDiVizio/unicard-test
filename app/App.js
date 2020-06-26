@@ -1,5 +1,5 @@
 import {Provider} from 'react-redux';
-import {store} from './config/store';
+import store from './config/store';
 import React from 'react';
 import MainScreen from './screens/MainScreen';
 

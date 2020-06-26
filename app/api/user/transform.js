@@ -2,7 +2,7 @@ export const transformGetUsers = ({ok, data, problem}) => {
   const newData = ok
     ? data.data.map(({avatar, first_name, last_name, email}) => ({
         name: first_name,
-        avatar,
+        image: avatar,
         surname: last_name,
         email,
       }))

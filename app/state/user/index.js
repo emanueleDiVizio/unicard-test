@@ -1,3 +1,1 @@
-import * as user from './userSlice';
-
-export default user;
+export {thunks, slice as default} from './userSlice';

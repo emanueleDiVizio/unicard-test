@@ -4,38 +4,38 @@ exports[`api/user/transform transformGetUsers transforms data correctly when res
 Object {
   "data": Array [
     Object {
-      "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/calebogden/128.jpg",
       "email": "george.bluth@reqres.in",
+      "image": "https://s3.amazonaws.com/uifaces/faces/twitter/calebogden/128.jpg",
       "name": "George",
       "surname": "Bluth",
     },
     Object {
-      "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg",
       "email": "janet.weaver@reqres.in",
+      "image": "https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg",
       "name": "Janet",
       "surname": "Weaver",
     },
     Object {
-      "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg",
       "email": "emma.wong@reqres.in",
+      "image": "https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg",
       "name": "Emma",
       "surname": "Wong",
     },
     Object {
-      "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/marcoramires/128.jpg",
       "email": "eve.holt@reqres.in",
+      "image": "https://s3.amazonaws.com/uifaces/faces/twitter/marcoramires/128.jpg",
       "name": "Eve",
       "surname": "Holt",
     },
     Object {
-      "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/stephenmoon/128.jpg",
       "email": "charles.morris@reqres.in",
+      "image": "https://s3.amazonaws.com/uifaces/faces/twitter/stephenmoon/128.jpg",
       "name": "Charles",
       "surname": "Morris",
     },
     Object {
-      "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/bigmancho/128.jpg",
       "email": "tracey.ramos@reqres.in",
+      "image": "https://s3.amazonaws.com/uifaces/faces/twitter/bigmancho/128.jpg",
       "name": "Tracey",
       "surname": "Ramos",
     },
