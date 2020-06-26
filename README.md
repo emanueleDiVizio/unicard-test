@@ -1,5 +1,9 @@
 # Unicard Test
 
+
+![Tests](https://github.com/emanueleDiVizio/unicard-test/workflows/Tests/badge.svg?branch=develop)    [![Coverage Status](https://coveralls.io/repos/github/emanueleDiVizio/unicard-test/badge.svg?branch=feature/ci)](https://coveralls.io/github/emanueleDiVizio/unicard-test?branch=feature/ci)
+
+
 Hi! Many thanks for giving me this challenge, I've thoroughly enjoyed building this project. Here's a bit of info that will help you make your way around the codebase.
 
 ## Running the app locally - iOS
