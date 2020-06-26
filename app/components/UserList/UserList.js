@@ -5,7 +5,11 @@ import useUserList from '../../hooks/useUserList';
 const UserItem = ({user: {email, image, name, surname}}) => {
   return (
     <View style={styles.container}>
-      <Image source={{uri: image}} style={styles.image} />
+      <Image
+        source={{uri: image}}
+        style={styles.image}
+        accessibilityLabel={image}
+      />
       <View style={styles.textContainer}>
         <Text style={styles.name}>
           {name} {surname}
