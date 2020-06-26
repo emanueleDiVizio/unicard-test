@@ -6,10 +6,11 @@
     "android": "react-native run-android",
     "ios": "react-native run-ios",
     "start": "react-native start",
-    "test": "jest",
-    "lint": "eslint .",
+    "test": "jest --coverage",
+    "coveralls": "jest --coverage && coveralls < coverage/lcov.info",
     "e2e-ios": "detox build -c ios && detox test -c ios",
-    "e2e-android": "detox build -c android && detox test -c android"
+    "e2e-android": "detox build -c android && detox test -c android",
+    "lint": "eslint ."
   },
   "dependencies": {
     "@reduxjs/toolkit": "^1.4.0",
