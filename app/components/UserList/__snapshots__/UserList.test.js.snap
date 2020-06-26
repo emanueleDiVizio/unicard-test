@@ -80,6 +80,7 @@ exports[`UserList displays user list when data is loaded 1`] = `
         }
       >
         <Image
+          accessibilityLabel="https://s3.amazonaws.com/uifaces/faces/twitter/calebogden/128.jpg"
           source={
             Object {
               "uri": "https://s3.amazonaws.com/uifaces/faces/twitter/calebogden/128.jpg",
@@ -131,6 +132,7 @@ exports[`UserList displays user list when data is loaded 1`] = `
         }
       >
         <Image
+          accessibilityLabel="https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg"
           source={
             Object {
               "uri": "https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg",
@@ -182,6 +184,7 @@ exports[`UserList displays user list when data is loaded 1`] = `
         }
       >
         <Image
+          accessibilityLabel="https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg"
           source={
             Object {
               "uri": "https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg",
@@ -233,6 +236,7 @@ exports[`UserList displays user list when data is loaded 1`] = `
         }
       >
         <Image
+          accessibilityLabel="https://s3.amazonaws.com/uifaces/faces/twitter/marcoramires/128.jpg"
           source={
             Object {
               "uri": "https://s3.amazonaws.com/uifaces/faces/twitter/marcoramires/128.jpg",
@@ -284,6 +288,7 @@ exports[`UserList displays user list when data is loaded 1`] = `
         }
       >
         <Image
+          accessibilityLabel="https://s3.amazonaws.com/uifaces/faces/twitter/stephenmoon/128.jpg"
           source={
             Object {
               "uri": "https://s3.amazonaws.com/uifaces/faces/twitter/stephenmoon/128.jpg",
@@ -335,6 +340,7 @@ exports[`UserList displays user list when data is loaded 1`] = `
         }
       >
         <Image
+          accessibilityLabel="https://s3.amazonaws.com/uifaces/faces/twitter/bigmancho/128.jpg"
           source={
             Object {
               "uri": "https://s3.amazonaws.com/uifaces/faces/twitter/bigmancho/128.jpg",
