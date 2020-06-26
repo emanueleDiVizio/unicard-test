@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`api/user/transform transformGetUsers transforms data correctly when response is a success 1`] = `
+Object {
+  "data": Array [
+    Object {
+      "email": "george.bluth@reqres.in",
+      "image": "https://s3.amazonaws.com/uifaces/faces/twitter/calebogden/128.jpg",
+      "name": "George",
+      "surname": "Bluth",
+    },
+    Object {
+      "email": "janet.weaver@reqres.in",
+      "image": "https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg",
+      "name": "Janet",
+      "surname": "Weaver",
+    },
+    Object {
+      "email": "emma.wong@reqres.in",
+      "image": "https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg",
+      "name": "Emma",
+      "surname": "Wong",
+    },
+    Object {
+      "email": "eve.holt@reqres.in",
+      "image": "https://s3.amazonaws.com/uifaces/faces/twitter/marcoramires/128.jpg",
+      "name": "Eve",
+      "surname": "Holt",
+    },
+    Object {
+      "email": "charles.morris@reqres.in",
+      "image": "https://s3.amazonaws.com/uifaces/faces/twitter/stephenmoon/128.jpg",
+      "name": "Charles",
+      "surname": "Morris",
+    },
+    Object {
+      "email": "tracey.ramos@reqres.in",
+      "image": "https://s3.amazonaws.com/uifaces/faces/twitter/bigmancho/128.jpg",
+      "name": "Tracey",
+      "surname": "Ramos",
+    },
+  ],
+  "ok": true,
+  "problem": undefined,
+}
+`;
+
+exports[`api/user/transform transforms data correctly when response has a problem 1`] = `
+Object {
+  "data": Object {},
+  "ok": false,
+  "problem": "test",
+}
+`;

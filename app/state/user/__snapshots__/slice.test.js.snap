@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`state/user/slice fulfilled does nothing if it was not loading 1`] = `
+Object {
+  "isLoading": false,
+}
+`;
+
+exports[`state/user/slice fulfilled stores new data if it was loading 1`] = `
+Object {
+  "isLoading": false,
+  "users": Array [
+    Object {
+      "name": "mockName",
+    },
+  ],
+}
+`;
+
+exports[`state/user/slice pending does nothing if loading 1`] = `
+Object {
+  "isLoading": true,
+}
+`;
+
+exports[`state/user/slice pending updates loading state if not loading 1`] = `
+Object {
+  "isLoading": true,
+}
+`;
+
+exports[`state/user/slice rejected does nothing if it was not loading 1`] = `
+Object {
+  "isLoading": false,
+}
+`;
+
+exports[`state/user/slice rejected registers error if was present and request errored gracefully 1`] = `
+Object {
+  "error": Object {
+    "message": "PROBLEM",
+  },
+  "isLoading": false,
+}
+`;
+
+exports[`state/user/slice rejected registers error if was present and request thrown 1`] = `
+Object {
+  "error": Object {
+    "message": "Rejected",
+  },
+  "isLoading": false,
+}
+`;
