@@ -43,6 +43,7 @@ const MOCK_DATA = [
 
 describe('Main Screen', () => {
   beforeEach(async () => {
+    await device.launchApp();
     await device.reloadReactNative();
   });
 

@@ -7,6 +7,8 @@ const {
 class CustomDetoxEnvironment extends DetoxCircusEnvironment {
   constructor(config) {
     super(config);
+
+    this.initTimeout = 1000000;
     this.registerListeners({
       SpecReporter,
       WorkerAssignReporter,

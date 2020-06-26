@@ -7,7 +7,9 @@
     "ios": "react-native run-ios",
     "start": "react-native start",
     "test": "jest",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "e2e-ios": "detox build -c ios && detox test -c ios",
+    "e2e-android": "detox build -c android && detox test -c android"
   },
   "dependencies": {
     "@reduxjs/toolkit": "^1.4.0",
